@@ -1,0 +1,13 @@
+langchain
+langchain-anthropic
+langchain-community
+chromadb
+pymupdf
+fastapi
+uvicorn
+streamlit
+python-dotenv
+anthropic
+tiktoken
+httpx
+sentence-transformers
