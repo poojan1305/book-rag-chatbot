@@ -13,6 +13,7 @@ st.set_page_config(
 st.title("📚 Book Wisdom Chatbot")
 st.caption("Ask anything from The Almanack of Naval Ravikant")
 
+
 if "session_id" not in st.session_state:
     st.session_state.session_id = str(uuid.uuid4())
 
@@ -22,6 +23,8 @@ if "messages" not in st.session_state:
 with st.sidebar:
     st.header("📖 Books Loaded")
     st.success("The Almanack of Naval Ravikant")
+    st.success("The Way of the Superior Man")
+
     st.divider()
     st.caption("More books coming soon...")
     if st.button("🗑️ Clear Chat"):

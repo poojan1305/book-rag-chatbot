@@ -38,6 +38,7 @@ def chat(request: QueryRequest):
 def get_books():
     return {
         "books": [
-            "The Almanack of Naval Ravikant"
+            "The Almanack of Naval Ravikant",
+              "The Way of the Superior Man"
         ]
     }
